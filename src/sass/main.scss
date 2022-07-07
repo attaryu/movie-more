@@ -1,0 +1,41 @@
+// base
+@use "./component/var";
+
+// container
+@use "./component/container/container";
+@use "./component/container/header/header";
+
+// title box
+@use "./component/container/header/title-box/title-box";
+
+// search bar
+@use "./component/container/header/search-bar-container/search-bar-container";
+
+// area
+@use "./component/container/area/area";
+
+// card
+@use "./component/container/area/card/card";
+@use "./component/container/area/card/button-container/button-container";
+
+// modal box pop up
+// background
+@use "./component/bg-modal-box/bg-modal-box";
+// modal box
+@use "./component/bg-modal-box/modal-box/modal-box";
+@use "./component/bg-modal-box/modal-box/image-poster-container/image-poster-container";
+@use "./component/bg-modal-box/modal-box/content-modal/content-modal";
+// button
+@use "./component/bg-modal-box/modal-box/content-modal/button-close/button-close";
+
+// switch theme button
+@use "./component/theme-button/theme-switch";
+
+// alert
+@use "./component/error-alert/error.scss";
+
+// js effect
+@use "./component/js-effect/js-effect";
+
+// font
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");

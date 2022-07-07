@@ -1,0 +1,51 @@
+/*------------------ dark mode ---------------*/
+
+.bg-d {
+	background-color: var(--bg-dark) !important;
+}
+
+.primary-d {
+	background-color: var(--primary-dark) !important;
+}
+
+.secondary-d {
+	background-color: var(--secondary-dark) !important;
+}
+
+.accent-d {
+	background-color: var(--accent-dark) !important;
+}
+
+.c-primary-d {
+	color: var(--primary-dark) !important;
+}
+
+.optional-d {
+	color: var(--optional-dark) !important;
+}
+
+.icon-btn-d {
+	background-image: url(../image/search-dark.png) !important;
+}
+
+.c-white {
+	color: var(--white) !important;
+}
+
+.c-black {
+	color: var(--black) !important;
+}
+
+img.img-filter-d::before {
+	background-color: var(--primary-dark);
+	color: black;
+}
+
+img.img-filter-d::after {
+	background-color: var(--primary-dark);
+	color: black;
+}
+
+.btn-hov:hover {
+	background-color: var(--accent) !important;
+}

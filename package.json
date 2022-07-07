@@ -1,0 +1,12 @@
+{
+  "name": "remake-moviemore",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "sass --watch ./sass/main.scss ./styles/test.css" 
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

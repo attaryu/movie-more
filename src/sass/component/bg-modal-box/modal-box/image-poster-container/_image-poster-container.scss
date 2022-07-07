@@ -1,0 +1,37 @@
+.image-poster-container {
+	border-radius: 8px;
+	overflow: hidden;
+
+	&__image-poster {
+		height: 100%;
+		width: 100%;
+		position: relative;
+		display: flex;
+		justify-content: center;
+		object-fit: cover;
+		border-radius: 6px;
+
+		&::before {
+			content: "";
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 3000%;
+			height: 3000%;
+			background-color: var(--primary);
+		}
+
+		&::after {
+			content: "sorry, missing image :(";
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 308%;
+			height: 1379%;
+			display: grid;
+			place-items: center;
+			font: 0.7em Poppins Regular, sans-serif;
+			color: white;
+		}
+	}
+}

@@ -1,0 +1,46 @@
+$bg: #fff;
+$primary: #8172de;
+$secondary: #e6e1ff;
+$accent: #ff8f51;
+
+$black: rgb(15, 15, 15);
+$optional: rgb(114, 114, 114);
+
+$bg-dark: #484656;
+$primary-dark: #c8bfff;
+$secondary-dark: #5a5867;
+$accent-dark: #ffae82;
+
+$white: rgb(235 235 235);
+$optional-dark: rgb(170 170 170);
+
+:root {
+	/*normal*/
+	--bg: #{$bg};
+	--primary: #{$primary};
+	--secondary: #{$secondary};
+	--accent: #{$accent};
+
+	--black: #{$black};
+	--optional: #{$optional};
+
+	/*dark mode*/
+	--bg-dark: #{$bg-dark};
+	--primary-dark: #{$primary-dark};
+	--secondary-dark: #{$secondary-dark};
+	--accent-dark: #{$accent-dark};
+
+	--white: #{$white};
+	--optional-dark: #{$optional-dark};
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	transition: 0.3s ease;
+}
+
+.page {
+	scroll-behavior: smooth;
+}

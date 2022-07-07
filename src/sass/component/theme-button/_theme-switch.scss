@@ -1,0 +1,90 @@
+.theme-switch {
+	width: 80px;
+	height: 90px;
+	position: fixed;
+	bottom: -65px;
+	right: 25px;
+	display: flex;
+	background-color: var(--secondary);
+	border-radius: 10px;
+	cursor: pointer;
+	-webkit-transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+	transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+	&:hover {
+		bottom: -10px;
+	}
+
+	&__title {
+		margin: 5px auto;
+		font-family: "Poppins", sans-serif;
+		font-weight: 500;
+		font-size: 0.7rem;
+		cursor: pointer;
+	}
+
+	&__slider {
+		width: 63px;
+		height: 33px;
+		padding: 2px;
+		position: absolute;
+		bottom: 20px;
+		right: 8px;
+		border-radius: 50px;
+		cursor: pointer;
+		box-shadow: 0 10px 38px -10px rgb(0 0 0 / 0.4);
+	}
+
+	&__checkbox {
+		all: unset;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		z-index: 1;
+	}
+
+	&__circle {
+		padding: 2px;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background-color: var(--primary);
+		border-radius: 50px;
+		transform: 0.35s;
+		z-index: -1;
+
+		&::after {
+			content: "";
+			display: block;
+			width: 29px;
+			height: 29px;
+			background-color: white;
+			border-radius: 50%;
+			transition: 0.35s ease;
+		}
+	}
+
+	&__image {
+		height: 20px;
+		position: absolute;
+		top: 6.55px;
+		left: 6.51px;
+		transition: 0.35s ease;
+		z-index: 1;
+	}
+
+	@at-root .theme-switch__checkbox:checked + {
+		.theme-switch__circle::after,
+		.theme-switch__circle .theme-switch__image {
+			transform: translateX(30px);
+		}
+
+		.theme-switch__circle {
+			background-color: var(--secondary-dark);
+		}
+	}
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles/style.css">
+	<link rel="stylesheet" href="styles/js-effect.css">
+	<link rel="stylesheet" href="styles/test.css">
+	<title>Movie More</title>
+	<link rel="icon" type="image/x-icon" href="./favicon/movie-more-update.png">
+</head>
+
+<body class="page">
+	<!-- ----- switch theme ----- -->
+	<!-- container-slider -->
+	<div class="theme-switch">
+		<h5 class="theme-switch__title">Theme</h5>
+		<!-- slider -->
+		<div class="theme-switch__slider">
+			<!-- checkbox -->
+			<input type="checkbox" class="theme-switch__checkbox">
+			<!-- circle -->
+			<span class="theme-switch__circle">
+				<img src="../image/day-mode.png" alt="Night Mode" class="theme-switch__image">
+			</span>
+		</div>
+	</div>
+
+	<!-- ----- content ----- -->
+	<div class="container">
+		<!-- nav -->
+		<header class="header container__header">
+			<!-- box-1 -->
+			<div class="title-box header__title-box">
+				<!-- title -->
+				<h1 class="title-box__title">MovieMore</h1>
+				<!-- description this -->
+				<p class="title-box__title-desc">Search you'r favorite movie in here</p>
+			</div>
+			<!-- box-2 -->
+			<nav class="search-bar-container header__search-bar-container">
+				<!-- box-3 -->
+				<div class=" search-bar-container__search-bar">
+					<!-- search -->
+					<input type="text" placeholder="Search title..." class="search-bar-container__search-bar-input"
+						autofocus>
+				</div>
+				<!-- icon -->
+				<button class="search-bar-container__search-icon"></button>
+			</nav>
+		</header>
+		<!-- area -->
+		<div class="area">
+		</div>
+	</div>
+
+
+	<!-- -----modal------->
+	<!-- bg-out -->
+	<div class="bg-modal-box">
+		<!-- modal-box -->
+		<div class="modal-box bg-modal-box__modal-box">
+			<!-- row modal -->
+			<div class="modal-box__modal-block-splite">
+				<!-- image-poster -->
+				<div class="image-poster-container modal-box__image-postster-container er-container">
+
+				</div>
+				<!-- content-modal -->
+				<div class="content-modal modal-box__content-modal">
+					<div class="content-modal__split">
+
+					</div>
+					<!-- button close -->
+					<div class="button-close">
+						<!-- btn -->
+						<button class="button-close__button">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<script type="module" src="scripts/main.js" defer></script>
+</body>
+
+</html>

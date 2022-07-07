@@ -1,0 +1,10 @@
+.area {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+
+	&--effect {
+		flex-direction: column;
+		align-items: center;
+	}
+}
