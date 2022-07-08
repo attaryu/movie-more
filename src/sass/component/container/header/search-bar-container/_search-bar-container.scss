@@ -23,7 +23,8 @@
 		flex-grow: 1;
 		all: unset;
 		width: 100%;
-		margin: 6px 10px;
+		height: 100%;
+		padding: 1px 5px;
 		background-color: transparent;
 		font-family: "Poppins", sans-serif;
 		font-size: 0.7rem;
@@ -37,7 +38,7 @@
 		width: 32px;
 		height: 32px;
 		border-radius: 30px;
-		background: var(--accent) url(../image/search-day.png) no-repeat center;
+		background: var(--accent) url(../asset/search-day.png) no-repeat center;
 		background-size: 14px 14px;
 		cursor: pointer;
 		transition: 0.3s;

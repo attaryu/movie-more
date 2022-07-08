@@ -1,51 +1,58 @@
-/*------------------ dark mode ---------------*/
-
 .bg-d {
-	background-color: var(--bg-dark) !important;
+	background-color: var(--bg-dark);
 }
 
 .primary-d {
-	background-color: var(--primary-dark) !important;
+	background-color: var(--primary-dark);
 }
 
 .secondary-d {
-	background-color: var(--secondary-dark) !important;
+	background-color: var(--secondary-dark);
 }
 
 .accent-d {
-	background-color: var(--accent-dark) !important;
+	background-color: var(--accent-dark);
+	color: #4a4a4a;
+
+	&:hover {
+		background-color: var(--accent);
+		color: var(--white);
+	}
 }
 
 .c-primary-d {
-	color: var(--primary-dark) !important;
+	color: var(--primary-dark);
 }
 
 .optional-d {
-	color: var(--optional-dark) !important;
+	color: var(--optional-dark);
 }
 
 .icon-btn-d {
-	background-image: url(../image/search-dark.png) !important;
+	background-image: url(../asset/search-dark.png);
 }
 
 .c-white {
-	color: var(--white) !important;
+	color: var(--white);
 }
 
 .c-black {
-	color: var(--black) !important;
+	color: var(--black);
 }
 
-img.img-filter-d::before {
-	background-color: var(--primary-dark);
-	color: black;
+img.img-filter-d {
+	&::before,
+	&::after {
+		background-color: var(--primary-dark);
+		color: black;
+	}
 }
 
-img.img-filter-d::after {
-	background-color: var(--primary-dark);
-	color: black;
-}
+.button-dark {
+	color: #4a4a4a;
 
-.btn-hov:hover {
-	background-color: var(--accent) !important;
+	&:hover {
+		background-color: var(--accent);
+		color: var(--white);
+	}
 }

@@ -77,7 +77,7 @@ export default function darkMode(mode) {
 		Element.searchIcon.classList.add("accent-d", "icon-btn-d");
 		Element.containerSlider.classList.add("primary-d");
 		Element.sliderTitle.classList.add("c-black");
-		Element.buttonClose.classList.add("accent-d", "c-black", "btn-hov");
+		Element.buttonClose.classList.add("accent-d", "button-dark");
 	} else {
 		Element.titleBox.classList.remove("c-primary-d");
 		Element.descriptionThis.classList.remove("optional-d");
@@ -85,6 +85,6 @@ export default function darkMode(mode) {
 		Element.searchIcon.classList.remove("accent-d", "icon-btn-d");
 		Element.containerSlider.classList.remove("primary-d");
 		Element.sliderTitle.classList.remove("c-black");
-		Element.buttonClose.classList.remove("accent-d", "c-black", "btn-hov");
+		Element.buttonClose.classList.remove("accent-d", "button-dark");
 	}
 }

@@ -60,37 +60,37 @@ export function getDetail(data, status) {
 						<div class="content-modal__row-item">
 							<span class="content-modal__connect">Writer</span>
 							<span class="content-modal__connect"> : </span>
-							<p>${data?.Writer ?? "unknown"}</p>
+							<p class="content-modal__value">${data?.Writer ?? "unknown"}</p>
 						</div>
 						<div class="content-modal__row-item">
 							<span class="content-modal__connect">Country</span>
 							<span class="content-modal__connect"> : </span>
-							<p>${data?.Country ?? "unknown"}</p>
+							<p class="content-modal__value">${data?.Country ?? "unknown"}</p>
 						</div>
 						<div class="content-modal__row-item">
 							<span class="content-modal__connect">Language</span>
 							<span class="content-modal__connect"> : </span>
-							<p>${data?.Language ?? "unknown"}</p>
+							<p class="content-modal__value">${data?.Language ?? "unknown"}</p>
 						</div>
 						<div class="content-modal__row-item">
 							<span class="content-modal__connect">Actors</span>
 							<span class="content-modal__connect"> : </span>
-							<p>${data?.Actors ?? "unknown"}</p>
+							<p class="content-modal__value">${data?.Actors ?? "unknown"}</p>
 						</div>
 						<div class="content-modal__row-item">
 							<span class="content-modal__connect">Genre</span>
 							<span class="content-modal__connect"> : </span>
-							<p>${data?.Genre ?? "unknown"}</p>
+							<p class="content-modal__value">${data?.Genre ?? "unknown"}</p>
 						</div>
 						<div class="content-modal__row-item">
 							<span class="content-modal__connect">Year</span>
 							<span class="content-modal__connect"> : </span>
-							<p>${data?.Year ?? "unknown"}</p>
+							<p class="content-modal__value">${data?.Year ?? "unknown"}</p>
 						</div>
 						<div class="content-modal__row-item">
 							<span class="content-modal__connect">Rating</span>
 							<span class="content-modal__connect"> : </span>
-							<p>${data?.Ratings[0]?.Value ?? "unknown"}</p>
+							<p class="content-modal__value">${data?.Ratings[0]?.Value ?? "unknown"}</p>
 						</div>
 					</div>
 					<p class="content-modal__short-plot secondary-d c-white">${
@@ -106,37 +106,37 @@ export function getDetail(data, status) {
 						<div class="content-modal__row-item">
 							<span class="content-modal__connect">Writer</span>
 							<span class="content-modal__connect"> : </span>
-							<p>${data?.Writer ?? "unknown"}</p>
+							<p class="content-modal__value">${data?.Writer ?? "unknown"}</p>
 						</div>
 						<div class="content-modal__row-item">
 							<span class="content-modal__connect">Country</span>
 							<span class="content-modal__connect"> : </span>
-							<p>${data?.Country ?? "unknown"}</p>
+							<p class="content-modal__value">${data?.Country ?? "unknown"}</p>
 						</div>
 						<div class="content-modal__row-item">
 							<span class="content-modal__connect">Language</span>
 							<span class="content-modal__connect"> : </span>
-							<p>${data?.Language ?? "unknown"}</p>
+							<p class="content-modal__value">${data?.Language ?? "unknown"}</p>
 						</div>
 						<div class="content-modal__row-item">
 							<span class="content-modal__connect">Actors</span>
 							<span class="content-modal__connect"> : </span>
-							<p>${data?.Actors ?? "unknown"}</p>
+							<p class="content-modal__value">${data?.Actors ?? "unknown"}</p>
 						</div>
 						<div class="content-modal__row-item">
 							<span class="content-modal__connect">Genre</span>
 							<span class="content-modal__connect"> : </span>
-							<p>${data?.Genre ?? "unknown"}</p>
+							<p class="content-modal__value">${data?.Genre ?? "unknown"}</p>
 						</div>
 						<div class="content-modal__row-item">
 							<span class="content-modal__connect">Year</span>
 							<span class="content-modal__connect"> : </span>
-							<p>${data?.Year ?? "unknown"}</p>
+							<p class="content-modal__value">${data?.Year ?? "unknown"}</p>
 						</div>
 						<div class="content-modal__row-item">
 							<span class="content-modal__connect">Rating</span>
 							<span class="content-modal__connect"> : </span>
-							<p>${data?.Ratings[0]?.Value ?? "unknown"}</p>
+							<p class="content-modal__value">${data?.Ratings[0]?.Value ?? "unknown"}</p>
 						</div>
 					</div>
 					<p class="content-modal__short-plot">${data?.Plot ?? "unknown"}</p>
